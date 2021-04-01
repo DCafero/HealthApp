@@ -6,7 +6,10 @@ import Tab from "@material-ui/core/Tab";
 import TabPanel from "../TabPanel";
 import DataReportCard from "./DataReportCard";
 
-const sampleData = [
+const fibbonacciNumbers = [
+  {
+    val: 1,
+  },
   {
     val: 1,
   },
@@ -17,11 +20,23 @@ const sampleData = [
     val: 3,
   },
   {
-    val: 4,
-  },
-  {
     val: 5,
   },
+  {
+    val: 8,
+  },
+  {
+    val: 13,
+  },
+  {
+    val: 21,
+  },
+  {
+    val: 34,
+  },
+  {
+    val: 55,
+  }
 ];
 
 function a11yProps(index) {
@@ -66,7 +81,7 @@ function ReportBody() {
         <DataReportCard title="Anxiety Body" />
       </TabPanel>
       <TabPanel value={value} index={2}>
-        <DataReportCard title="Depression Body" data={sampleData} />
+        <DataReportCard title="Depression Body" data={fibbonacciNumbers} />
       </TabPanel>
     </div>
   );
