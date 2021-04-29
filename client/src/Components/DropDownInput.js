@@ -52,8 +52,9 @@ export default function ControlledOpenSelect() {
                         <em>None</em>
                     </MenuItem>
                     <MenuItem value={10}>Chest</MenuItem>
-                    <MenuItem value={20}>Stomach</MenuItem>
-                    <MenuItem value={30}>Back</MenuItem>
+                    <MenuItem value={20}>Legs</MenuItem>
+                    <MenuItem value={30}>Upper Back</MenuItem>
+                    <MenuItem value={40}>Lower Back</MenuItem>
                 </Select>
             </FormControl>
         
