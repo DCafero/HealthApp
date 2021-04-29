@@ -1,5 +1,11 @@
 import React, { Component } from "react";
-import { LineChart, Line, CartesianGrid, XAxis, YAxis } from "recharts";
+import {
+  LineChart,
+  Line,
+  CartesianGrid,
+  XAxis,
+  YAxis
+} from "recharts";
 
 export default class DataReportCard extends Component {
   render() {
