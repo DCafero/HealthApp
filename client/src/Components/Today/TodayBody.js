@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import Button from "@material-ui/core/Button";
 import ButtonGroup from "@material-ui/core/ButtonGroup";
 import React from "react";
@@ -11,6 +12,21 @@ import DiscreteSlider from "../DiscreteSlider";
 import DropDownInput from "../DropDownInput";
 import AnxietyQuestionnaire from "../AnxietyQuestionnaire";
 import DepressionQuestionnaire from "../DepressionQuestionnaire";
+=======
+import Button from '@material-ui/core/Button'
+import ButtonGroup from '@material-ui/core/ButtonGroup'
+import React from 'react';
+import PropTypes from 'prop-types';
+import { makeStyles } from '@material-ui/core/styles';
+import Tabs from '@material-ui/core/Tabs';
+import Tab from '@material-ui/core/Tab';
+import Typography from '@material-ui/core/Typography';
+import Box from '@material-ui/core/Box';
+import DiscreteSlider from '../DiscreteSlider'
+import DropDownInput from '../DropDownInput'
+import AnxietyQuestionnaire from '../AnxietyQuestionnaire'
+import DepressionQuestionnaire from '../DepressionQuestionnaire'
+>>>>>>> 4eaad4690b184f95ce657cf5c15e8c316d9d63dd
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
