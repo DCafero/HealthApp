@@ -34,6 +34,7 @@ function MainBody() {
       <AppBar position="static">
         <Tabs
           value={value}
+          variant='fullWidth'
           onChange={handleChange}
           aria-label="simple tabs example"
         >

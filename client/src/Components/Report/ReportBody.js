@@ -67,6 +67,7 @@ function ReportBody() {
         <Tabs
           value={value}
           onChange={handleChange}
+          variant='fullWidth'
           aria-label="simple tabs example"
         >
           <Tab label="Pain" {...a11yProps(0)} />
